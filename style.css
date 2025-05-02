@@ -1,0 +1,404 @@
+
+.header {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 50cm;
+  }
+.novel-image img{
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+ 
+  .header a:hover {
+    background-color:#ddd;
+    color: black;
+    
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+
+
+    a{
+      margin-right: 60px;
+    }
+  
+  }
+
+  .home{
+
+background-image: url(images/born.avif);
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 120rem;
+    justify-content: center;
+    
+
+  }
+
+
+
+
+body{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+
+.contact-information{
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  background-size: cover;
+  margin-left: 40px;
+
+
+}
+
+.contact{
+  max-width: 800px;
+  text-align: center;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
+}
+
+p{
+  font-weight: 300;
+  color:black;
+  font-size: larger;
+}
+
+.container{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+ 
+}
+
+
+.contactInfo{
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box{
+
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.icon{
+  min-width: 60px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.contactForm{
+
+  width: 40%;
+  padding: 40px;
+  background-color: white;
+}
+
+h2{
+
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+
+.inputBox{
+
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.inputBox input
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  resize: none;
+  
+}
+
+textarea{
+
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  resize: none;
+
+}
+
+span{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color:black;
+}
+
+:focus ~ span{
+  color: red;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+:valid ~ span{
+  color:black;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+textarea:focus ~ span{
+  color:black;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+textarea:valid ~ span{
+  color:black;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+
+#submit{
+  width: 100px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+.footerstyle{
+
+  height: 250px;
+  text-align: center;
+  padding: 1px;
+  background-color:black;
+margin-top: 120px;
+  color: white;
+}
+
+.companycontact{
+padding: 2%;
+background-color: white;
+width:30%;
+border-radius: 10px;
+
+
+}
+
+.stylefooter{
+display: flex;
+margin-top: 1%;
+gap: 6%;
+margin-left: 5%;
+color: white;
+height: 1cm;
+
+}
+.stylefooter li{
+  list-style: none;
+}
+.rasilogo{
+
+  height: 20px;
+  width: 20px;
+  border: 3px;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+#bed{
+  border-radius: 10px;
+}
+
+#rasinlogo{
+border-radius: 10px;
+
+}
+#footer-button {
+margin-bottom: -1%;
+margin-top: 1%;
+color: aliceblue;
+
+
+
+}
+
+.accomplishments{
+  p{
+
+    color: aliceblue;
+  }
+}
+
+
+.ouroffices{
+  p{
+    color: white;
+  }
+}
+
+
+body{
+  margin: 0;
+  overflow-x: hidden;
+ 
+}
+
+.novel-image img{
+  height: 700px;
+  width: 600px;
+  margin-left: 10%;
+}
+.novel-born{
+  display: flex;
+  gap: 10%;
+}
+
+
+
+.novel-title{
+  margin-left: 35px;
+  width: 50%;
+
+  
+
+  h3{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p{
+    /* width: 5%; */
+  }
+}
+
+.blogg{
+  display: flex;
+}
+
+.blogg-image img{
+  height: 700px;
+  border-radius: 30px;
+  width: 600px;
+
+  margin-left: 10%;
+}
+.content{
+  h1{
+    color: aliceblue;
+    font-size: 60px;
+   
+    
+  }
+
+  span{
+    color: aliceblue;
+    font-size: 40px;
+
+   
+  }
+p{
+  color: aliceblue;
+  font-size: 30px;
+}
+  
+}
+
+.text-blog{
+  
+    color: black;
+    margin-left: 10%;
+  width: 50%;
+
+    h1{
+      font-size: 40px;
+      text-align: center;
+    }
+
+}
+
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
